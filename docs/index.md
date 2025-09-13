@@ -17,11 +17,11 @@ hero:
 
 
 features:
-  - title: Feature A
+  - title: 为什么我修改不了
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
+  - title: 我真的服了
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
+  - title: 到底是为什么
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
