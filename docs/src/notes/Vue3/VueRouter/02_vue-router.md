@@ -146,7 +146,7 @@ import { createRouter, createWebHistory } from "vue-router";
 - active-class属性
   - 设置激活a元素后应用的class，默认是router-link-active
 - exact-active-class属性
-  - 链接精准激活时，应用于渲染的<a>的class，默认是router-link-exact-active
+  - 链接精准激活时，应用于渲染的`<a>`的class，默认是router-link-exact-active
 
 
 

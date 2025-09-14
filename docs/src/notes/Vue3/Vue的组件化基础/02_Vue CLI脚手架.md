@@ -64,11 +64,11 @@
 
 
 
-- main.js中`import App from './App.vue'`，同时App.vue中也要在<script>里面的对象前面`export default`
+- main.js中`import App from './App.vue'`，同时App.vue中也要在`<script>`里面的对象前面`export default`
 
 一个App.vue文件的样例（计数器）：
 
-```javascript
+```vue
 <template>
   <h2>当前计数：{{ counter }}</h2>
   <button @click="increment">+1</button>

@@ -2,6 +2,9 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  markdown: {
+    html:false
+  },
   base: '/Blogsite/',
   title: "Liwenting's Blog",
   description: "Record my learning",

@@ -8,7 +8,7 @@ npm install vuex
 
 # Vuex的状态管理
 
-![](C:\Users\lavender\OneDrive\桌面\Vue3笔记\img\Vuex.png)
+![](../img/Vuex.png)
 
 例子：
 
