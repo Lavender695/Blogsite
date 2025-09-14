@@ -10,7 +10,7 @@ hero:
   actions:
     - theme: brand
       text: Start Reading
-      link: /markdown-examples
+      link: /src/notes/JS高级/this的指向
     - theme: alt
       text: My Github
       link: 'https://github.com/Lavender695'
