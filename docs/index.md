@@ -6,22 +6,22 @@ hero:
   name: "Liwenting's Blog"
   text: "Notes and thoughts"
   tagline: "天天开心，一起进步"
-  image: /绿色小猫.png
+  image: /绿色小猫圆形.png
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: Start Reading
       link: /markdown-examples
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: My Github
+      link: 'https://github.com/Lavender695'
 
 
 features:
-  - title: 为什么我修改不了
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: 我真的服了
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: 到底是为什么
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 前端框架
+    details: Vue, React
+  - title: 前端语言
+    details: JavaScript, TypeScript
+  - title: 底层构建工具
+    details: Webpack, Vite
 ---
 
