@@ -14,11 +14,12 @@
   --vp-button-brand-text: #ffffff;
   /* 按钮背景颜色 */
   --vp-button-brand-bg: #9d94fd;
-  --vp-button-brand-hover-bg: #815ebd;
+  --vp-button-brand-hover-bg: #8886bb;
 
     /* 主题基色 */
     --vp-c-brand: #9d94fd;
 
     /* active bar选项颜色 */
-    --vp-c-brand-1: var(--vp-c-brand)
+    --vp-c-brand-1: #9d94fd;
+    --vp-c-brand-2: #8886bb;
 }
