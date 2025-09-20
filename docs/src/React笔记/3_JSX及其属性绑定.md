@@ -79,5 +79,9 @@ const className = `abc cba ${isActive ? 'ohmygod' : ''}`
 style绑定对象类型的写法：
 
 ```jsx
-<h2 *style*={{color: "red", fontSize: 16}}></h2>
+<h2 style={{color: "red", fontSize: 16}}></h2>
 ```
+
+1. 第一层大括号：`{ }` (JSX 的 JavaScript 表达式插值)
+
+2. 第二层大括号：`{ }` (JavaScript 的对象字面量)
