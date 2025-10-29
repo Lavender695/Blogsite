@@ -50,8 +50,8 @@ create-react-app 项目名称
 - 创建完成之后，进图对应的目录，就可以将项目跑起来：
 
 ```shell
-cd 你的项目
-yarn start
+cd lwt-react
+npm start
 ```
 
 > 原来cra默认是使用yarn，但是现在默认又改成使用npm了
