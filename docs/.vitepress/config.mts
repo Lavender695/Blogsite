@@ -1,13 +1,15 @@
 import { defineConfig } from 'vitepress'
 import { withSidebar } from 'vitepress-sidebar'
+import { generateSidebar } from 'vitepress-sidebar'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig(
-  withSidebar({
+  {
+    lastUpdated: true,
     markdown: {
       html: false
     },
-    base: '/Blogsite/',
+    base: '/Blogsite',
     title: "Liwenting's Blog",
     description: "Record my learning",
     head: [
@@ -35,6 +37,15 @@ export default defineConfig(
       //   }
       // ],
 
+      sidebar: generateSidebar({
+        documentRootPath: '/docs',
+        useTitleFromFileHeading: false,      // 从 H1 获取标题
+        hyphenToSpace: true,                // 文件名中的 - 转空格
+        capitalizeFirst: true,              // 首字母大写
+        collapsed: false,                  // 侧边栏默认展开
+        debugPrint: false,                 // 调试完成后关掉
+      }),
+
       socialLinks: [
         { icon: 'github', link: 'https://github.com/Lavender695' }
       ],
@@ -44,10 +55,5 @@ export default defineConfig(
       },
 
     }
-  }, {
-    documentRootPath: '/docs',
-    scanStartPath: '/src',
-    collapsed: true,
-    useTitleFromFileHeading: false
-  })
+  }
 )
